@@ -1,0 +1,24 @@
+<?import javafx.scene.control.*?>
+<?import javafx.scene.layout.*?>
+<BorderPane fx:controller="com.example.tictactoe.GameBoardController"
+            xmlns:fx="http://javafx.com/fxml">
+    <center>
+        <VBox>
+            <HBox>
+                <Button fx:id="btn1"></Button>
+                <Button fx:id="btn2"></Button>
+                <Button fx:id="btn3"></Button>
+            </HBox>
+            <HBox>
+                <Button fx:id="btn4"></Button>
+                <Button fx:id="btn5"></Button>
+                <Button fx:id="btn6"></Button>
+            </HBox>
+            <HBox>
+                <Button fx:id="btn7"></Button>
+                <Button fx:id="btn8"></Button>
+                <Button fx:id="btn9"></Button>
+            </HBox>
+        </VBox>
+    </center>
+</BorderPane>
